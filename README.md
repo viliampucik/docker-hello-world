@@ -8,6 +8,7 @@ The docker image contains just `62 B` binary, which prints `hello, world`. The i
 
 ```sh
 git clone https://github.com/viliampucik/docker-hello-world.git
+cd docker-hello-world
 docker build -t hello .
 docker run -ti --rm hello
 ```
